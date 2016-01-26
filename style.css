@@ -36,12 +36,26 @@ a{
 
 .container .contain{
   float: left;
-  width: 20%;
+  width: 19.7519%;
   height: 120px;
-  border:1px solid gray;
+  border: 1px solid gray;
   display: inline-block;
 }
 
+
+.clearfix{
+  clear: both;
+  float: none
+}
+
+.clearfix:before{
+  content: '';
+  display: block;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+}
 
 /*typography*/
 
